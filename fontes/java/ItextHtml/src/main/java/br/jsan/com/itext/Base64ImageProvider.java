@@ -58,7 +58,7 @@ public class Base64ImageProvider extends AbstractImageProvider {
 		try {
 			img = Image.getInstance(decoded);
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 		}
 
 		return img;
